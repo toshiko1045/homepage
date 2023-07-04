@@ -1,20 +1,25 @@
-.icon-circle{
-  width: 200px;
-  height: 200px;
+.icon {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  height: 100;
+  margin: 0;
+}
+.icon-circle {
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   overflow: hidden;
-  position: relative;
-  text-align: center;
-
 }
-
-.icon-circle img{
+.icon-circle img {
   width: 100%;
   height: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
+}
+.myname {
+  display: flex;
+  justify-content: center;
+}
+.profile {
+  display: flex;
+  justify-content: center;
 }
