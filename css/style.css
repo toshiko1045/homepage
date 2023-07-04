@@ -23,3 +23,8 @@
   display: flex;
   justify-content: center;
 }
+.overflow-wrap-normal {
+  width: 900px;
+  /* background-color: #dbedf0; */
+  overflow-wrap: normal;
+}
